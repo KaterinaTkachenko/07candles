@@ -1,0 +1,280 @@
+@media(max-width:1619px){
+    .bg4 {
+        background-size: contain;
+    }
+}
+@media (max-width: 1550px) { 
+    .candlesBg2 .row {
+        height: 130vh;
+    }
+    .logo{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 1199px){
+	.sticky {
+	    max-width: 1140px;
+	}
+}
+@media (max-width: 1366px) { 
+    .candlesBg2__flex {
+        margin: 30px 0 0 0;
+    }
+    .candlesBg2__title {
+        width: 60%;
+    }
+    .candlesBg2 .row {
+	    height: 170vh;
+	}
+	.candlesBg2__flex h4 {
+	    font-size: 1.3rem !important;
+	}
+}
+@media(max-width: 1291px){
+    .candlesBg2__flex {
+        margin: 20px 0 0 0;
+    }
+    .candlesBg2 {
+        background-size: 115% 100%;
+        background-position: right;
+    }
+}
+@media(max-width: 1236px){
+    .candlesBg2 {
+        background-size: 135% 100%;
+    }
+}
+
+@media screen and (max-width: 1199px){
+
+}
+
+@media(max-width: 1130px){
+    .candlesBg2 {
+        background: url('../images/mask-bg-3-mob.png') no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 40px 0;
+        margin: 60px 0 40px;
+    }
+}
+
+@media(max-width: 1121px){
+    .candlesBg2__title {
+        width: 80%;
+    }
+    .price__flex>div {
+        flex: 0 1 30%;
+    }
+}
+
+@media (max-width: 1060px) { 
+    .candlesBg2__flex > div {
+        flex: 0 1 60%;
+        box-sizing: content-box;
+        margin-bottom: 30px;
+    }
+    .candlesBg2 .row {
+        height: unset;
+    }
+    .aromats__last{
+        display: none;
+    }
+}
+
+@media (max-width: 991px) { 
+	.item2 {
+	    padding-bottom: 20px; 
+	}
+    .candles__right {
+        text-align: justify;
+    }
+    .candles__left{
+        padding: 0px;    
+    }
+    .candles__right{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .candles__right__item h3{
+        text-align: center;
+    }
+    .price__flex>div {
+        flex: 0 1 40%;
+    }
+    .price__flex {
+        margin-top: 40px;
+    }
+    .footer__logo {
+        text-align: center;
+    }
+}
+@media (max-width: 987px) { 
+    .aromats__flex{
+        justify-content: center;
+    }
+    .aromats__title{
+        text-align: center;
+    }
+}
+@media (max-width: 768px) { 
+    .candlesBg {
+        background-position: right bottom;
+        background-size: 50%;
+    }
+    .candlesBg2__flex > div {
+        flex: 0 1 90%;
+    }
+    .candlesBg2__title {
+        width: 90%;
+    }    
+    .bg4 {
+        background-size: auto;
+    }
+    .candles__right {
+        padding: 24px 0 !important;
+    }
+    .price__flex>div {
+        flex: 0 1 70%;
+        margin-bottom: 50px;
+    }
+    .bg6 {
+        background: url(../images/mask-bg-3-mob.png) no-repeat;
+	    background-position: center;
+	    background-size: cover;
+	    padding: 40px 0;
+	    margin: 60px 0 40px;
+	    margin: 0px 0 40px;
+    }
+    .delivery__flex{
+        flex-direction: column;
+    }
+    .delivery__flex img {
+        margin: 0 auto 20px;
+    }
+    .delivery__flex h3{
+        text-align: center;
+    }
+    #main_form h3{
+        color: #000 !important;
+    }
+    .candlesBg2__card {
+        margin-bottom: 0;
+    }  
+    .usage__title {
+	    padding: 20px 0 40px;
+	} 
+	.video {
+	    margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 576px) { 
+    .video {
+        height: 500px;
+    }
+    .candles__right {
+        text-align: left;
+    }
+    .candlesBg {
+        background-size: 80%;
+    }
+    .logo {     
+        font-size: 32px;
+    }
+    .candlesBg2__title {
+        width: 95%;
+    }
+    .price__flex>div {
+        flex: 0 1 80%;
+    }
+    .usage__title {
+        padding: 35px 0 15px;
+    }
+    .footer_last__col{
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) { 
+    .video{
+        height: 400px;
+    }
+}
+@media (max-width: 445px) { 
+    .main1__title {
+        font-size: 80px;
+    }
+    .main1__desc {
+        font-size: 30px;
+    }
+    .form__btn{
+        width: 100%;
+    }
+}
+@media (max-width: 426px) { 
+    .candlesBg {
+        background-size: 100%;
+    }
+    .logo {     
+        margin-top: 15px;
+    }
+    h3{
+        font-size: 1.7rem;
+    }
+    h4{
+        font-size: 1.5rem;
+    }
+
+    body, div{
+        font-size: 1.3rem;
+    }
+    .price__flex>div {
+        flex: 0 1 90%;
+    }
+    .form__col{
+        padding: 0 !important;
+    }
+    .logo {
+        font-size: 30px;
+    }
+}
+@media (max-width: 416px) { 
+    .main1__title {
+        font-size: 70px;
+    }
+    .main1__title2 {
+        font-size: 40px;
+    }
+    .main1__desc {
+        font-size: 25px;
+    }
+    .logo {
+        font-size: 24px;
+    }
+    .video{
+        height: 300px;
+    }
+}
+@media (max-width: 367px) { 
+    .main1__title {
+        font-size: 60px;
+    }
+    .main1__desc {
+        font-size: 20px;
+    }
+}
+@media (max-width: 330px) { 
+    .mainBtn{
+        font-size: 1.3rem;
+    }
+    .logo {
+        font-size: 22px;
+    }
+}
+@media (max-width: 320px) { 
+    .main1__title {
+        font-size: 55px;
+    }
+}
