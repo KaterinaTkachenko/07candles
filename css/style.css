@@ -1,61 +1,4 @@
-@font-face {
-    font-family: 'Optima Bold';
-    src: url('../fonts/Optima/Optima-Bold.eot');
-    src: url('../fonts/Optima/Optima-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Optima/Optima-Bold.woff') format('woff'),
-    url('../fonts/Optima/Optima-Bold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-h2, h3{
-    font-weight: bold;
-}
-
-body, div{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
-}
-
-h1, h2, h3, h4{
-    font-family: 'Optima Bold', sans-serif;
-}
-
-img{
-    width: 100%;
-    height: auto;
-}
-
-a{
-    color: inherit!important;
-}
-
-a:hover, a:active {
-    color: inherit !important;
-    text-decoration: none !important;
-}
-
-li a:hover, a:hover{
-    cursor: pointer !important;
-}
-
-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;    
-}
-
-button:focus {
-    outline: unset !important;
-}
-
-.navbar-nav{
-    width: 100%;
-    justify-content: space-around;
-}
-.navbar-link{
-    color: #fff !important;
-}
+/* #region COLORS */
 .mainColor{
     color: #ffc000;
 }
@@ -65,8 +8,65 @@ button:focus {
 .lightColor{
     color: #FBF19C;
 }
-.footer__logo{
-    text-align: right;
+/* #endregion */
+
+/* #region TYPOGRAPHY */
+@font-face {
+    font-family: 'Optima Bold';
+    src: url('../fonts/Optima/Optima-Bold.eot');
+    src: url('../fonts/Optima/Optima-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Optima/Optima-Bold.woff') format('woff'),
+    url('../fonts/Optima/Optima-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body, div{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+}
+h1, h2, h3, h4{
+    font-family: 'Optima Bold', sans-serif;
+}
+h2, h3{
+    font-weight: bold;
+}
+/* #endregion */
+
+/* #region CUSTOM TAGS */
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+    color: inherit!important;
+}
+a:hover, a:active {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+li a:hover, a:hover{
+    cursor: pointer !important;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;    
+}
+button:focus {
+    outline: unset !important;
+}
+:focus {
+    outline: none;
+}
+/* #endregion */
+
+/* #region HEADER */
+.navbar-nav{
+    width: 100%;
+    justify-content: space-around;
+}
+.navbar-link{
+    color: #fff !important;
 }
 #header, #footer{
     background-color: #ffc000;
@@ -75,16 +75,6 @@ button:focus {
 .header__col{
     padding: 25px 0 10px;
 }
-.footer_first{
-    padding-top: 30px;
-}
-.footer_last{
-    padding-bottom: 30px;
-}
-.footer_last__col{
-    text-align: right;
-}
-
 .logo{
     text-transform: uppercase;
     font-size: 36px;
@@ -95,7 +85,42 @@ button:focus {
     text-align: right;
     font-size: 1rem;
 }
+/* #endregion */
 
+/* #region FOOTER */
+.footer__logo{
+    text-align: center;
+}
+.footer__logo__desc{
+    padding-right: 60px;
+}
+
+.footer_first{
+    padding-top: 30px;
+}
+.footer_last{
+    padding-bottom: 30px;
+}
+.footer_last__col{
+    text-align: center;
+}
+/* #endregion */
+
+/* #region MAIN BUTTON */
+.mainBtn{
+    color: #fff !important;
+    border: 0;
+    background-color: #ffc000;
+    padding: 15px 30px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    transition: all .5s ease-in-out;
+    animation-delay: 1.6s;
+    animation-name: fadeInUp;
+}
+/* #endregion */
+
+/* #region SECTION MAIN */
 .main1{
     background: url('../images/massage-candle-bg.jpg');
     background-size: cover;
@@ -126,18 +151,9 @@ button:focus {
     animation-delay: 1.2s;
     transition: all 1.4s ease-in-out;
 }
-.mainBtn{
-    color: #fff !important;
-    border: 0;
-    background-color: #ffc000;
-    padding: 15px 30px;
-    border-radius: 8px;
-    letter-spacing: 1px;
-    transition: all .5s ease-in-out;
-    animation-delay: 1.6s;
-    animation-name: fadeInUp;
-}
+/* #endregion */
 
+/* #region SECTION CANDELS */
 .candlesBg{
     background: url('../images/mask-bg-2.png') no-repeat;
     background-position: right;
@@ -147,7 +163,6 @@ button:focus {
 .candles__left{
     padding: 48px 8px;    
 }
-
 .candles__right__item{
     margin: auto;
 }
@@ -170,12 +185,10 @@ button:focus {
     left: unset;
     margin-top: 10px;
 }
-
 .candlesBg2{
     background: url('../images/mask-bg-3.png') no-repeat;
     background-size: 100% 100%;
 }
-
 .candlesBg2 .row{
     height: 100vh;
     display: flex;
@@ -183,18 +196,15 @@ button:focus {
     text-align: center;
     justify-content: center;
 }
-
 .candlesBg2__flex img{
     width: 52px;
     margin-bottom: 20px;
 }
-
 .candlesBg2__flex h4{
     margin-bottom: 20px;
     font-weight: bold;
     font-size: 1.4rem !important;
 }
-
 .candlesBg2__card{
     background-color: rgb(255, 255, 255, .3);
     border: 0;
@@ -202,14 +212,11 @@ button:focus {
     padding: 20px;
     margin-bottom: 75px;
 }
-
 .card__lastLi {
     margin-bottom: 10px !important;
 }
-
 .candlesBg2__flex{
-    margin: 40px 0 0 0;
-    
+    margin: 40px 0 0 0;  
 }
 .candlesBg2__flex > div{
     flex: 0 1 30%;
@@ -234,6 +241,12 @@ button:focus {
     flex-direction: column;
     align-items: center;
 }
+.candlesBg2__card li{
+    margin-bottom: 40px;
+}
+/* #endregion */
+
+/* #region SECTION AROMATS */
 .aromats__flex{
     display: flex;
     flex-wrap: wrap;
@@ -250,9 +263,33 @@ button:focus {
     padding: 0 20px;
     font-weight: bold;
 }
-.hidden{
-    visibility: hidden;
+/* #endregion */
+
+/* #region SECTION REVIEWS */
+.reviews_bg{
+    background: url('../images/mask-bg-reviews.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 60px;
 }
+.reviews__flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.reviews__flex>div{
+    flex: 0 1 30%;
+    text-align: center;
+    background-color: rgb(255, 255, 0, .3);
+    border: 3px solid #ffc000;
+    border-radius: 8px;
+    padding: 80px 20px;
+    margin-top: 70px;
+}
+/* #endregion */
+
+/* #region SECTION PRICE */
 .bg4{
     background: url('/images/mask-bg-4.png') no-repeat;
     background-size: 70% 80%;
@@ -276,7 +313,9 @@ button:focus {
 .price__price{
     margin-bottom: 30px;
 }
+/* #endregion */
 
+/* #region SECTION USAGE */
 .bg6{
     background: url('../images/mask-bg-6.png') no-repeat;
     background-size: cover;
@@ -286,20 +325,22 @@ button:focus {
 .usage__title{
     padding: 60px 0 40px;
 }
-.candlesBg2__card li{
-    margin-bottom: 40px;
+.video{   
+    width: 100%; 
+    height: 600px;
 }
+/* #endregion */
 
+/* #region MAIN FORM */
 .bg7{
     background: url('../images/mask-bg-7-8.png') no-repeat;
     background-position: right center;
     background-size: contain;
 }
-
 #main_form{
     margin: 30px 0 40px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 45px;
 }
 .bg7__img{
     margin-bottom: 30px;
@@ -315,10 +356,6 @@ button:focus {
     height: calc(1.6em + 0.75rem + 25px);
     border-radius: 15px;
 }
-button:focus {
-    outline: unset !important;
-}
-
 .form-control:focus{
     border-color: #ffc000 !important;
     box-shadow: 0 0 0 0.1rem rgb(255, 192, 0, 0.25) !important;
@@ -327,6 +364,9 @@ button:focus {
     height: 130px;
     resize: none;
 }
+/* #endregion */
+
+/* #region SECTION DELIVERY */
 .delivery__flex{
     display: flex;    
     margin-bottom: 40px;
@@ -343,6 +383,9 @@ button:focus {
 #delivery h3{
     margin-bottom: 20px;
 }
+/* #endregion */
+
+/* #region PAGE FORM-OK.PHP */
 #formok{
     background: url('../images/mask-bg-form-ok.png') no-repeat;
     height: 100vh;
@@ -352,14 +395,9 @@ button:focus {
 #formok .row{
     padding: 40px 0;
 }
-.video{   
-    width: 100%; 
-    height: 600px;
-}
-:focus {
-    outline: none;
-}
+/* #endregion */
 
+/* #region ANIMATION: SMOOTH APPEARING ON MAIN SECTION */
 @keyframes fadeInUp {
     from {
         transform: translate3d(0,40px,0)
@@ -461,7 +499,9 @@ button:focus {
     -o-animation-duration: 1s;
     animation-duration: 1s;
 }
+/* #endregion */
 
+/* #region  UPPER BUTTON */
 .upper_fixed {
     right: 7.2%!important;
     visibility: visible!important;
@@ -500,3 +540,4 @@ button:focus {
 .upper .upper__btn:hover {
     opacity: 0.8!important;
 }
+/* #endregion */

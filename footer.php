@@ -7,7 +7,7 @@
 		</div>
 	</div>
 	<div class="row justify-content-center">
-		<div class="col-xl-5 col-lg-5 col-md-12 col-sm-8 col-9 footer__logo">
+		<div class="col-xl-4 col-lg-5 col-md-12 col-sm-8 col-9 footer__logo footer__logo__desc">
 			<div class="logo_desc">Hand made</div>
 		</div>
 	</div>

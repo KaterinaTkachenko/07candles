@@ -37,9 +37,9 @@
         </div>   
     </div>  
 	<section id="main">
-		<div class="container-fluid ">
+		<div class="container-fluid">
 			<div class="row main1">
-				<div class="col-xl-5 col-lg-7 col-md-11 col-sm-11 col-11 text-center">
+				<div class="col-xl-5 col-lg-7 col-md-11 col-sm-12 col-12 text-center">
 					<h1 class="mainColor main1__title in-down">Save 20%</h1>
 					<h2 class="main1__title2 in-down">на заказ от 1000 грн</h2>
 					<div class="main1__desc animated animatedFadeInUp fadeInUp">Теплый увлажняющий «коктейль» для кожи,
@@ -175,6 +175,29 @@
 		</div>
 	</section>
 
+	<section id="reviews">
+	<div class="container-fluid reviews_bg">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+					<h3 class="text-center mb-4"><strong>ОТЗЫВЫ О НАШИХ СВЕЧАХ</strong></h3>
+					<div class="reviews__flex">
+						<div>
+							<div class="mb-2"><strong>Мария</strong></div>
+							<div>Около 10 питательных компонентов! Состав: Соевый воск, Масло какао, Масло Ши, Масло жожоба, Масло виноградных косточек, Масло макадамии, Витамины Е, А.</div>
+						</div>
+						<div>
+							<div class="mb-2"><strong>Мария</strong></div>
+								<div>Около 10 питательных компонентов! Состав: Соевый воск, Масло какао, Масло Ши, Масло жожоба, Масло виноградных косточек, Масло макадамии, Витамины Е, А.</div>
+							</div>
+						<div>
+							<div class="mb-2"><strong>Мария</strong></div>
+							<div>Около 10 питательных компонентов! Состав: Соевый воск, Масло какао, Масло Ши, Масло жожоба, Масло виноградных косточек, Масло макадамии, Витамины Е, А.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	</section>
 	<section id="price">
 		<h3 class="mainColor text-center mb-4">СТОИМОСТЬ МАССАЖНЫХ СВЕЧЕЙ</h3>
 		<div class="price__flex">
